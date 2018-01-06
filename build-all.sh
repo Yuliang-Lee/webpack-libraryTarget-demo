@@ -1,0 +1,10 @@
+npm run build-var
+npm run build-assign
+npm run build-this
+npm run build-window
+npm run build-global
+npm run build-commonjs
+npm run build-commonjs2
+npm run build-amd
+npm run build-umd
+npm run build-jsonp

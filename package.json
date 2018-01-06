@@ -1,0 +1,34 @@
+{
+  "name": "webpack-librarytarget-demo",
+  "version": "1.0.0",
+  "description": "webpack out.libraryTarget description",
+  "main": "index.js",
+  "scripts": {
+    "build-var": "webpack --config webpack-config-var.js",
+    "build-assign": "webpack --config webpack-config-assign.js",
+    "build-this": "webpack --config webpack-config-this.js",
+    "build-window": "webpack --config webpack-config-window.js",
+    "build-global": "webpack --config webpack-config-global.js",
+    "build-commonjs": "webpack --config webpack-config-commonjs.js",
+    "build-commonjs2": "webpack --config webpack-config-commonjs2.js",
+    "build-umd": "webpack --config webpack-config-umd.js",
+    "build-amd": "webpack --config webpack-config-amd.js",
+    "build-jsonp": "webpack --config webpack-config-jsonp.js",
+    "build-all": "npm run build-var && npm run build-assign && npm run build-this && npm run build-window && npm run build-global && npm run build-commonjs && npm run build-commonjs2 && npm run build-amd && npm run build-umd && npm run build-jsonp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "libraryTarget",
+    "library",
+    "out"
+  ],
+  "author": "xlaoyu <frank_yll@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}

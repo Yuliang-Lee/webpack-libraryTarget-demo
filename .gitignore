@@ -1,0 +1,10 @@
+
+.idea
+.vscode/
+node_modules
+**npm-debug.log
+**.DS_store
+
+*.log
+*.log.*
+coverage/
