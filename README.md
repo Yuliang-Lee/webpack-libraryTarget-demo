@@ -1,3 +1,3 @@
 # webpack-libraryTarget-demo
 
-test different `libraryTarget` options will output what code.
+Test what code will be output by different libraryTarget options.
